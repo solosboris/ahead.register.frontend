@@ -17,10 +17,11 @@ npm install vue-router@4
 npm install pinia
 npm install -D @playwright/test
 npx playwright install
+npm install -D tailwindcss@3 postcss autoprefixer
 
 npm version
 {
-  'ahead.register.frontend': '0.0.0
+  'ahead.register.frontend': '0.0.0',
   npm: '10.9.3',
   node: '22.20.0',
   acorn: '8.15.0',
