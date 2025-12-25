@@ -15,7 +15,6 @@ const valid = computed(() =>
 async function submit() {
   try {
     await rest.post('/users/register', {
-      id: '',
       firstName: firstName.value,
       lastName: lastName.value,
       email: email.value
